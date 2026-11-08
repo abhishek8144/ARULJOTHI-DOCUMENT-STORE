@@ -209,14 +209,24 @@ updateCart();
 }
 
 function updateCart() {
-const ids = [...selectedProducts.keys()];
-const total = [...selectedProducts.values()].reduce((sum, value) => sum + value, 0);
-document.getElementById('cartCount').textContent =
-${ids.length} document${ids.length === 1 ? '' : 's'} selected;
-document.getElementById('cartTotal').textContent = Total: ₹${total};
-document.getElementById('cartItems').textContent =
-ids.length ? Selected: ${ids.length} item(s) : 'Select documents above to add them to your cart.';
-document.getElementById('checkoutBtn').disabled = ids.length === 0;
+    const ids = [...selectedProducts.keys()];
+
+    const total = [...selectedProducts.values()]
+        .reduce((sum, value) => sum + value, 0);
+
+    document.getElementById('cartCount').textContent =
+        `${ids.length} document${ids.length === 1 ? '' : 's'} selected`;
+
+    document.getElementById('cartTotal').textContent =
+        `Total: ₹${total}`;
+
+    document.getElementById('cartItems').textContent =
+        ids.length
+            ? `Selected: ${ids.length} item(s)`
+            : 'Select documents above to add them to your cart.';
+
+    document.getElementById('checkoutBtn').disabled =
+        ids.length === 0;
 }
 
 async function checkoutSelected() {
