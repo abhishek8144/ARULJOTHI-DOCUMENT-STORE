@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARULJOTHI BUILDING DOCUMENTS</title>
+<meta name="description" content="Building Construction Manual, construction PDF guides, agreements and editable Excel formats from ARULJOTHI.">
+<style>
+:root{--navy:#071b66;--red:#e3131b;--ink:#172033;--muted:#647084;--bg:#f4f6fb}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg)}
+header{background:#fff;border-bottom:4px solid var(--red);padding:18px 5%;display:flex;align-items:center;gap:18px}
+.logo{width:82px;height:82px;object-fit:contain;border:1px solid #e7eaf1;border-radius:8px}
+header h1{margin:0;color:var(--navy);font-size:clamp(21px,4vw,34px);letter-spacing:1px}header p{margin:5px 0 0;color:var(--muted)}
+.hero{text-align:center;padding:38px 18px 22px}.hero h2{font-size:clamp(25px,4vw,38px);margin:0 0 10px;color:var(--navy)}.hero p{margin:0;color:var(--muted);line-height:1.5}
+.category-navigation{max-width:700px;margin:15px auto 30px;padding:0 18px;display:grid;gap:10px}
+.category-navigation a{display:block;text-align:center;text-decoration:none;background:var(--navy);color:#fff;padding:14px 10px;min-height:48px;border-radius:10px;font-weight:800;font-size:14px}
+.section-title{max-width:1100px;margin:28px auto 14px;padding:0 18px;color:var(--navy);font-size:23px;scroll-margin-top:20px}
+.grid{max-width:1100px;margin:0 auto 34px;padding:0 18px;display:grid;grid-template-columns:1fr;gap:14px}
+.card{background:#fff;border:1px solid #e7eaf1;border-radius:18px;padding:18px 24px;box-shadow:0 6px 18px #0b1c4612;display:grid;grid-template-columns:minmax(0,1fr) 124px;grid-template-rows:auto auto;align-items:center;gap:5px 16px;min-height:112px}
+.card h3{grid-column:1;grid-row:1;margin:0;color:#292929;font-size:20px;line-height:1.3}
+.price{grid-column:1;grid-row:2;font-size:23px;font-weight:800;margin:0;color:#168044}
+button{border:0;border-radius:9px;background:var(--red);color:#fff;padding:13px 16px;font-weight:700;font-size:15px;cursor:pointer}
+button:disabled{opacity:.55;cursor:wait}.select-btn{grid-column:2;grid-row:1 / span 2;width:100%;height:58px;background:#216fa8;margin:0;border-radius:10px;font-size:16px}.select-btn.selected{background:#168044}
+#cart{position:sticky;bottom:0;z-index:10;background:#fff;border-top:3px solid var(--red);box-shadow:0 -6px 24px #0b1c4620;padding:14px 18px;display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap}
+#cart strong{color:var(--navy)}#cart small{color:var(--muted)}#checkoutBtn{min-width:150px}#selectAllBtn{background:#168044;min-width:170px}
+.note{max-width:900px;margin:0 auto 28px;padding:0 18px;color:var(--muted);font-size:13px;line-height:1.5;text-align:center}
+#status{max-width:680px;margin:0 auto 24px;padding:0 18px;text-align:center;font-weight:600;min-height:24px}
+footer{text-align:center;background:var(--navy);color:#fff;padding:24px 15px;line-height:1.7}
+@media(max-width:520px){header{padding:14px 4%;gap:12px}.logo{width:62px;height:62px}.card{grid-template-columns:minmax(0,1fr) 115px;min-height:112px;padding:18px 20px;gap:5px 12px}.card h3{font-size:18px}.price{font-size:22px}.select-btn{height:58px;font-size:15px}}
+@media(max-width:400px){.category-navigation{gap:7px}.category-navigation a{font-size:12px;padding:13px 4px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head><body>
+<header><img class="logo" src="./logo.jpg" alt="ARULJOTHI logo"><div><h1>ARULJOTHI BUILDING DOCUMENTS</h1><p>Building Manual, PDF Guides &amp; Excel Formats</p></div></header>
+<section class="hero"><h2>Professional Building Documents</h2><p>Practical digital resources for civil engineers,<br>contractors, architects and building owners.</p></section>
+<nav class="category-navigation" aria-label="Product categories">
+<a href="#manual-section">A TO Z BUILDING MANUAL – CLICK HERE</a>
+<a href="#agreements-section">AGREEMENTS / FORMATS – CLICK HERE</a>
+<a href="#pdf-section">CONSTRUCTION PDF CHECKLIST – CLICK HERE</a>
+<a href="#excel-section">SITE MAINTENANCE EXCEL SHEET – CLICK HERE</a></nav>
+
+<h2 id="manual-section" class="section-title">📘 A TO Z BUILDING CONSTRUCTION MANUAL</h2>
+<main class="grid"><article class="card"><h3>A to Z Building Construction Manual</h3><div class="price">₹299</div><button class="select-btn" onclick="toggleSelect('building_manual',this)">SELECT</button></article></main>
+
+<h2 id="agreements-section" class="section-title">📄 Agreements / Formats</h2>
+<main class="grid">
+<article class="card"><h3>Consulting Agreement</h3><div class="price">₹299</div><button class="select-btn" onclick="toggleSelect('consulting',this)">SELECT</button></article>
+<article class="card"><h3>Building Contract Agreement</h3><div class="price">₹299</div><button class="select-btn" onclick="toggleSelect('contract',this)">SELECT</button></article>
+<article class="card"><h3>Bank Estimate Format</h3><div class="price">₹399</div><button class="select-btn" onclick="toggleSelect('bank_estimate',this)">SELECT</button></article>
+</main>
+
+<h2 id="pdf-section" class="section-title">📄 Construction PDF Products – ₹99 Each</h2>
+<main class="grid">
+<article class="card" data-type="PDF">
+<h3>Building Approval Document Kit</h3><div class="price">₹99</div>
+<button class="select-btn" type="button" onclick="toggleSelect('approval_kit',this)">SELECT</button>
+</article>
+<article class="card" data-type="PDF">
+<h3>Building Plan Checklist</h3><div class="price">₹99</div>
+<button class="select-btn" type="button" onclick="toggleSelect('building_plan_checklist',this)">SELECT</button>
+</article>
+<article class="card" data-type="PDF">
+<h3>Site Inspection Report Format</h3><div class="price">₹99</div>
+<button class="select-btn" type="button" onclick="toggleSelect('site_inspection_report',this)">SELECT</button>
+</article>
+<article class="card" data-type="PDF">
+<h3>Contractor Bill Format Guide</h3><div class="price">₹99</div>
+<button class="select-btn" type="button" onclick="toggleSelect('contractor_bill_guide',this)">SELECT</button>
+</article>
+<article class="card" data-type="PDF">
+<h3>Work Order Format</h3><div class="price">₹99</div>
+<button class="select-btn" type="button" onclick="toggleSelect('work_order_format',this)">SELECT</button>
+</article>
+<article class="card" data-type="PDF">
+<h3>Construction Quotation Format</h3><div class="price">₹99</div>
+<button class="select-btn" type="button" onclick="toggleSelect('construction_quotation',this)">SELECT</button>
+</article>
+<article class="card" data-type="PDF">
+<h3>House Construction Agreement Guide</h3><div class="price">₹99</div>
+<button class="select-btn" type="button" onclick="toggleSelect('agreement_guide',this)">SELECT</button>
+</article>
+<article class="card" data-type="PDF">
+<h3>Construction Quality Control Checklist</h3><div class="price">₹99</div>
+<button class="select-btn" type="button" onclick="toggleSelect('quality_control',this)">SELECT</button>
+</article>
+<article class="card" data-type="PDF">
+<h3>Building Maintenance Manual</h3><div class="price">₹99</div>
+<button class="select-btn" type="button" onclick="toggleSelect('maintenance_manual',this)">SELECT</button>
+</article>
+<article class="card" data-type="PDF">
+<h3>Complete Building Estimation Kit</h3><div class="price">₹99</div>
+<button class="select-btn" type="button" onclick="toggleSelect('estimation_kit',this)">SELECT</button>
+</article>
+<article class="card" data-type="PDF">
+<h3>Complete Contractor Business Kit</h3><div class="price">₹99</div>
+<button class="select-btn" type="button" onclick="toggleSelect('contractor_business_kit',this)">SELECT</button>
+</article>
+<article class="card" data-type="PDF">
+<h3>Civil Engineer Site Management Kit</h3><div class="price">₹99</div>
+<button class="select-btn" type="button" onclick="toggleSelect('site_management_kit',this)">SELECT</button>
+</article>
+<article class="card" data-type="PDF">
+<h3>Building Approval Tracker</h3><div class="price">₹99</div>
+<button class="select-btn" type="button" onclick="toggleSelect('approval_tracker',this)">SELECT</button>
+</article>
+</main>
+<h2 id="excel-section" class="section-title">📊 Construction Excel Products – ₹149 Each</h2>
+<main class="grid">
+<article class="card" data-type="EXCEL">
+<h3>Site Attendance Report</h3><div class="price">₹149</div>
+<button class="select-btn" type="button" onclick="toggleSelect('site_attendance',this)">SELECT</button>
+</article>
+<article class="card" data-type="EXCEL">
+<h3>Site Measurement Book</h3><div class="price">₹149</div>
+<button class="select-btn" type="button" onclick="toggleSelect('measurement_book',this)">SELECT</button>
+</article>
+<article class="card" data-type="EXCEL">
+<h3>Daily Construction Report</h3><div class="price">₹149</div>
+<button class="select-btn" type="button" onclick="toggleSelect('daily_construction_report',this)">SELECT</button>
+</article>
+<article class="card" data-type="EXCEL">
+<h3>Labour Attendance Register</h3><div class="price">₹149</div>
+<button class="select-btn" type="button" onclick="toggleSelect('labour_attendance',this)">SELECT</button>
+</article>
+<article class="card" data-type="EXCEL">
+<h3>Labour Payment Register</h3><div class="price">₹149</div>
+<button class="select-btn" type="button" onclick="toggleSelect('labour_payment',this)">SELECT</button>
+</article>
+<article class="card" data-type="EXCEL">
+<h3>Material Stock Register</h3><div class="price">₹149</div>
+<button class="select-btn" type="button" onclick="toggleSelect('material_stock',this)">SELECT</button>
+</article>
+<article class="card" data-type="EXCEL">
+<h3>Cement &amp; Steel Stock Register</h3><div class="price">₹149</div>
+<button class="select-btn" type="button" onclick="toggleSelect('cement_steel_stock',this)">SELECT</button>
+</article>
+<article class="card" data-type="EXCEL">
+<h3>Contractor Bill Worksheet</h3><div class="price">₹149</div>
+<button class="select-btn" type="button" onclick="toggleSelect('contractor_bill',this)">SELECT</button>
+</article>
+<article class="card" data-type="EXCEL">
+<h3>Construction Quotation / BOQ Worksheet</h3><div class="price">₹149</div>
+<button class="select-btn" type="button" onclick="toggleSelect('quotation_boq',this)">SELECT</button>
+</article>
+</main>
+
+<section id="cart" aria-live="polite">
+<strong id="cartCount">0 documents selected</strong><span id="cartTotal">Total: ₹0</span>
+<small id="cartItems">Select documents above to add them to your cart.</small>
+<button id="selectAllBtn" type="button" onclick="selectAllProducts()">SELECT ALL DOCUMENTS</button>
+<button id="checkoutBtn" type="button" onclick="checkoutSelected()" disabled>BUY SELECTED</button>
+</section>
+<div id="status" role="status" aria-live="polite"></div>
+<div class="note">Digital products are delivered electronically. Each successful purchase unlocks only the selected document. Templates must be checked and adapted to the project and applicable local requirements.</div>
+<footer><strong>Created by ER. V. ABHISHEK, B.E., R.E.</strong><br>ARULJOTHI CIVILTECHTURE</footer>
+
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+const API_BASE='https://aruljothi-agreement-store-backend.onrender.com';
+const RAZORPAY_KEY_ID='rzp_live_To61mF9o1g0GFJ';
+const statusBox=document.getElementById('status');
+const selectedProducts=new Map();
+const prices={
+building_manual:299,consulting:299,contract:299,bank_estimate:399,
+approval_kit:99,building_plan_checklist:99,site_inspection_report:99,contractor_bill_guide:99,
+work_order_format:99,construction_quotation:99,agreement_guide:99,quality_control:99,
+maintenance_manual:99,estimation_kit:99,contractor_business_kit:99,site_management_kit:99,
+approval_tracker:99,site_attendance:149,measurement_book:149,daily_construction_report:149,
+labour_attendance:149,labour_payment:149,material_stock:149,cement_steel_stock:149,
+contractor_bill:149,quotation_boq:149
+};
+function syncButtons(){
+ document.querySelectorAll('.select-btn').forEach(button=>{
+  const match=button.getAttribute('onclick').match(/toggleSelect\('([^']+)'/);
+  if(!match)return;
+  const selected=selectedProducts.has(match[1]);
+  button.classList.toggle('selected',selected);
+  button.textContent=selected?'SELECTED ✓':'SELECT';
+ });
+}
+function selectAllProducts(){
+ const all=selectedProducts.size===Object.keys(prices).length;
+ if(all)selectedProducts.clear();
+ else Object.keys(prices).forEach(id=>selectedProducts.set(id,prices[id]));
+ syncButtons();updateCart();
+}
+function toggleSelect(product,button){
+ if(selectedProducts.has(product))selectedProducts.delete(product);
+ else selectedProducts.set(product,prices[product]);
+ syncButtons();updateCart();
+}
+function updateCart(){
+ const ids=[...selectedProducts.keys()];
+ const total=[...selectedProducts.values()].reduce((sum,value)=>sum+value,0);
+ document.getElementById('cartCount').textContent=`${ids.length} document${ids.length===1?'':'s'} selected`;
+ document.getElementById('cartTotal').textContent=`Total: ₹${total}`;
+ document.getElementById('cartItems').textContent=ids.length?`Selected: ${ids.length} item(s)`:'Select documents above to add them to your cart.';
+ document.getElementById('checkoutBtn').disabled=ids.length===0;
+ document.getElementById('selectAllBtn').textContent=ids.length===Object.keys(prices).length?'DESELECT ALL':'SELECT ALL DOCUMENTS';
+}
+async function checkoutSelected(){
+ const products=[...selectedProducts.keys()];
+ if(!products.length)return;
+ const button=document.getElementById('checkoutBtn');
+ button.disabled=true;statusBox.textContent='Connecting securely to payment service…';
+ try{
+  const response=await fetch(API_BASE+'/api/create-order',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({products})});
+  const order=await response.json();
+  if(!response.ok)throw new Error(order.error||'Unable to create payment order.');
+  const options={
+   key:RAZORPAY_KEY_ID,amount:order.amount,currency:order.currency||'INR',
+   name:'ARULJOTHI DOCUMENT STORE',description:order.productName,order_id:order.orderId,
+   theme:{color:'#e3131b'},
+   handler:async function(paymentResponse){
+    statusBox.textContent='Payment received. Verifying securely…';
+    try{
+     const verifyResponse=await fetch(API_BASE+'/api/verify-payment',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({...paymentResponse,products,orderId:order.orderId})});
+     const verified=await verifyResponse.json();
+     if(!verifyResponse.ok)throw new Error(verified.error||'Payment verification failed.');
+     if(!verified.downloadToken)throw new Error('Payment verified, but download token was not returned.');
+     statusBox.textContent='Payment verified. Preparing your ZIP download…';
+     window.location.href=API_BASE+'/api/download/'+encodeURIComponent(verified.downloadToken);
+    }catch(error){statusBox.textContent=error.message+' If money was debited, keep your Razorpay payment ID and contact support.';}
+   },
+   modal:{ondismiss:function(){statusBox.textContent='Payment window closed. No documents were downloaded.';}}
+  };
+  const checkout=new Razorpay(options);
+  checkout.on('payment.failed',function(){statusBox.textContent='Payment failed. Please try again.';});
+  checkout.open();
+ }catch(error){statusBox.textContent=error.message||'Something went wrong. Please try again.';}
+ finally{button.disabled=selectedProducts.size===0;}
+}
+</script></body></html>
