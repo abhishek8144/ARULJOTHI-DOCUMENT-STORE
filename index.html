@@ -707,9 +707,17 @@ statusBox.textContent =
 
 const checkout = new Razorpay(options);
 
-checkout.on('payment.failed', function() {
-statusBox.textContent =
-'Payment failed. Please try again.';
+checkout.on('payment.failed', function(event) {
+  const err = event && event.error ? event.error : {};
+
+  console.error('RAZORPAY PAYMENT FAILURE:', event);
+
+  statusBox.textContent =
+    'Payment failed: ' +
+    (err.description || 'Unknown error') +
+    ' | Code: ' + (err.code || 'Not provided') +
+    ' | Reason: ' + (err.reason || 'Not provided') +
+    ' | Step: ' + (err.step || 'Not provided');
 });
 
 checkout.open();
