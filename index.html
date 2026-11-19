@@ -422,6 +422,132 @@ footer{
     <article class="product-card"><div class="product-info"><h3 class="product-name">Contractor Bill Worksheet</h3><div class="price">₹149</div></div><button class="select-btn" type="button" data-product="contractor_bill">SELECT</button></article>
     <article class="product-card"><div class="product-info"><h3 class="product-name">Construction Quotation / BOQ Worksheet</h3><div class="price">₹149</div></div><button class="select-btn" type="button" data-product="quotation_boq">SELECT</button></article>
   </section>
+  <!-- VASTHU PLANS -->
+<h2 class="section-title" id="vasthu">VASTHU PLANS - ₹199 EACH</h2>
+
+<section class="product-list">
+
+  <article class="product-card">
+    <div class="product-info">
+      <h3 class="product-name">North Facing - 2000 Sq.ft</h3>
+      <div class="price">₹199</div>
+    </div>
+    <button class="select-btn" type="button" data-product="north_2000">SELECT</button>
+  </article>
+
+  <article class="product-card">
+    <div class="product-info">
+      <h3 class="product-name">North Facing - 1000 Sq.ft</h3>
+      <div class="price">₹199</div>
+    </div>
+    <button class="select-btn" type="button" data-product="north_1000">SELECT</button>
+  </article>
+
+  <article class="product-card">
+    <div class="product-info">
+      <h3 class="product-name">North Facing - 500 Sq.ft</h3>
+      <div class="price">₹199</div>
+    </div>
+    <button class="select-btn" type="button" data-product="north_500">SELECT</button>
+  </article>
+
+  <article class="product-card">
+    <div class="product-info">
+      <h3 class="product-name">East Facing - 2000 Sq.ft</h3>
+      <div class="price">₹199</div>
+    </div>
+    <button class="select-btn" type="button" data-product="east_2000">SELECT</button>
+  </article>
+
+  <article class="product-card">
+    <div class="product-info">
+      <h3 class="product-name">East Facing - 1000 Sq.ft</h3>
+      <div class="price">₹199</div>
+    </div>
+    <button class="select-btn" type="button" data-product="east_1000">SELECT</button>
+  </article>
+
+  <article class="product-card">
+    <div class="product-info">
+      <h3 class="product-name">East Facing - 500 Sq.ft</h3>
+      <div class="price">₹199</div>
+    </div>
+    <button class="select-btn" type="button" data-product="east_500">SELECT</button>
+  </article>
+
+  <article class="product-card">
+    <div class="product-info">
+      <h3 class="product-name">West Facing - 2000 Sq.ft</h3>
+      <div class="price">₹199</div>
+    </div>
+    <button class="select-btn" type="button" data-product="west_2000">SELECT</button>
+  </article>
+
+  <article class="product-card">
+    <div class="product-info">
+      <h3 class="product-name">West Facing - 1000 Sq.ft</h3>
+      <div class="price">₹199</div>
+    </div>
+    <button class="select-btn" type="button" data-product="west_1000">SELECT</button>
+  </article>
+
+  <article class="product-card">
+    <div class="product-info">
+      <h3 class="product-name">West Facing - 500 Sq.ft</h3>
+      <div class="price">₹199</div>
+    </div>
+    <button class="select-btn" type="button" data-product="west_500">SELECT</button>
+  </article>
+
+  <article class="product-card">
+    <div class="product-info">
+      <h3 class="product-name">South Facing - 2000 Sq.ft</h3>
+      <div class="price">₹199</div>
+    </div>
+    <button class="select-btn" type="button" data-product="south_2000">SELECT</button>
+  </article>
+
+  <article class="product-card">
+    <div class="product-info">
+      <h3 class="product-name">South Facing - 1000 Sq.ft</h3>
+      <div class="price">₹199</div>
+    </div>
+    <button class="select-btn" type="button" data-product="south_1000">SELECT</button>
+  </article>
+
+  <article class="product-card">
+    <div class="product-info">
+      <h3 class="product-name">South Facing - 500 Sq.ft</h3>
+      <div class="price">₹199</div>
+    </div>
+    <button class="select-btn" type="button" data-product="south_500">SELECT</button>
+  </article>
+
+</section>
+
+
+<!-- BUILDING APPROVAL PLANS -->
+<h2 class="section-title" id="approval-plans">BUILDING APPROVAL PLANS</h2>
+
+<section class="product-list">
+
+  <article class="product-card">
+    <div class="product-info">
+      <h3 class="product-name">Building Approval Plan - Self Approval</h3>
+      <div class="price">₹399</div>
+    </div>
+    <button class="select-btn" type="button" data-product="model_self">SELECT</button>
+  </article>
+
+  <article class="product-card">
+    <div class="product-info">
+      <h3 class="product-name">Building Approval Plan - eDCR</h3>
+      <div class="price">₹799</div>
+    </div>
+    <button class="select-btn" type="button" data-product="model_edcr">SELECT</button>
+  </article>
+
+</section>
 
   <section id="selection" aria-live="polite">
     <h2>Your Selection</h2>
@@ -449,34 +575,7 @@ footer{
 const API_BASE = 'https://aruljothi-agreement-store-backend.onrender.com';
 const RAZORPAY_KEY_ID = 'rzp_live_To61mF9o1g0GFJ';
 
-const prices = {
-  building_manual:299, consulting:299, contract:299, bank_estimate:399,
-  approval_kit:99, building_plan_checklist:99, site_inspection_report:99,
-  contractor_bill_guide:99, work_order_format:99, construction_quotation:99,
-  agreement_guide:99, quality_control:99, maintenance_manual:99,
-  estimation_kit:99, contractor_business_kit:99, site_management_kit:99,
-  approval_tracker:99, site_attendance:149, measurement_book:149,
-  daily_construction_report:149, labour_attendance:149, labour_payment:149,
-  material_stock:149, cement_steel_stock:149, contractor_bill:149,
-  quotation_boq:149 north_2000:199,
-north_1000:199,
-north_500:199,
 
-east_2000:199,
-east_1000:199,
-east_500:199,
-
-west_2000:199,
-west_1000:199,
-west_500:199,
-
-south_2000:199,
-south_1000:199,
-south_500:199,
-
-model_self:399,
-model_edcr:799
-};
 
 const selectedProducts = new Set();
 const statusBox = document.getElementById('status');
@@ -532,7 +631,57 @@ selectAllButton.addEventListener('click', () => {
 
 checkoutButton.addEventListener('click', checkoutSelected);
 
-async function checkoutSelected() {
+async function
+const prices = {
+  building_manual:299,
+  consulting:299,
+  contract:299,
+  bank_estimate:399,
+
+  approval_kit:99,
+  building_plan_checklist:99,
+  site_inspection_report:99,
+  contractor_bill_guide:99,
+  work_order_format:99,
+  construction_quotation:99,
+  agreement_guide:99,
+  quality_control:99,
+  maintenance_manual:99,
+  estimation_kit:99,
+  contractor_business_kit:99,
+  site_management_kit:99,
+  approval_tracker:99,
+
+  site_attendance:149,
+  measurement_book:149,
+  daily_construction_report:149,
+  labour_attendance:149,
+  labour_payment:149,
+  material_stock:149,
+  cement_steel_stock:149,
+  contractor_bill:149,
+  quotation_boq:149,
+
+  north_2000:199,
+  north_1000:199,
+  north_500:199,
+
+  east_2000:199,
+  east_1000:199,
+  east_500:199,
+
+  west_2000:199,
+  west_1000:199,
+  west_500:199,
+
+  south_2000:199,
+  south_1000:199,
+  south_500:199,
+
+  model_self:399,
+  model_edcr:799
+};
+  checkoutSelected() {
   const products = [...selectedProducts];
   if (!products.length) return;
 
