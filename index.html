@@ -507,7 +507,6 @@ selectAllButton.addEventListener('click', () => {
 
 checkoutButton.addEventListener('click', checkoutSelected);
 
-async function
 const prices = {
   building_manual:299,
   consulting:299,
@@ -555,9 +554,10 @@ const prices = {
   south_500:199,
 
   model_self:399,
-  model_edcr:799
+  model_edcr: 799
 };
-  checkoutSelected() {
+
+async function checkoutSelected() {
   const products = [...selectedProducts];
   if (!products.length) return;
 
